@@ -47,10 +47,3 @@
 7. QnA Chatbot:
     - If user wants to ask about a vocabulary in any topic they have created, user can use Chatbot to ask.
     - Chatbot will answer to user information about the word user asked. Note that all information the chatbot answers is from the document user submit, not related to any extra information.
-
-## Technical implementation
-1. Create a set of flashcards:
-    - User submit a document with some config numbers (number of flashcards created) -> FE sends the document to BE through API post request -> BE calls ChatGPT API to extract vocabularies in the document (abort if the document contains violent content)-> BE sends back to FE the extracted data -> FE displays the data in the form of a flashcard set and allows user to adjust each flashcard -> User confirms creating the final flashcard set -> FE sends the final set to BE and BE saves the set to database.
-
-- Knowledge graph
-- Flashcard similarity when displaying flashcards in "Learning with flashcards"

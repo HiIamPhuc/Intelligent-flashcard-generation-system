@@ -130,7 +130,7 @@ python manage.py runserver
 
 ## Documentation
 
-- For implementation notes and development guides, see [`notes.md`](./notes.md).
+- For detailed information of the project, see [`Report.pdf`](.docs/Report.pdf).
 
 ## License
 
